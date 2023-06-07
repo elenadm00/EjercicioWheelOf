@@ -1,49 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/ruleta.css" />
+    <script>
+      window.onload = function() {
+        localStorage.clear();
+      }
+      </script>
     <title>Wheel of...</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <header>
-        <div class="logo">
-         <img src="./img/head.png" alt="Logo Ruleta">
-        </div>
-         <div class="texto-banner"><h2>Wheel of... <br>Team 3</h2></div>
-      </header>
-      <footer class="pie-pagina">
+      <div class="logo">
+        <img src="./img/head.png" alt="Logo Ruleta" />
+      </div>
+      <div class="texto-banner">
+        <h2>Wheel of... <br />Team 3</h2>
+      </div>
+    </header>
 
-        <div class="container">
-        <div class="Roul">
-          <div class="btnArrow"></div>
-          <img id="roule" src="img/ruleta.png" alt="Ruleta">
+    <div class="ruleta">
+      <div class="ruleta__slice"><img src="img/ruleta.png"></div>
+    </div>
+    <button class="ruleta__btn">Girar</button>
+    <div class="ganador__popup">
+      <div class="ganador__popup__content">
+        <h2 class="ganador__popup__title">¡El ganador es: </h2>
+        <p class="ganador__popup__name"> </p>
+      </div>
+    </div>
+
+    <div class="btnArea">
+      <div class="playRuleta"><h1 class="rulH1">PARTICIPANTES</h1></div>
+      <div class="btnAdded">
+        <div class="areaTxt">
+          <textarea
+            class="player2"
+            name="participante"
+            rows="24"
+            cols="70"
+            value="${iteration.startTime}" disabled
+          ></textarea>
+        </div>
+        <div class="btnGroup">
+          <input
+            class="addPlayer"
+            rows="4"
+            cols="20"
+            type="text"
+            name="participante"
+            value="Participante"
+            onclick="if(this.value=='Participante') this.value=''"
+            onblur="if(this.value=='') this.value='Participante'"
+          />
+          <div class="btnColumn">
+            <button class="btnAdd">Añade Participante</button>
+            <button class="btnDel">Borrar Participante</button>
+            <button class="btnMod">Modificar Participante</button>
+          </div>
         </div>
       </div>
+    </div>
 
-        <h1 class="rulH1">PARTICIPANTES</h1>
-        <div class="playRuleta">
-          <div class="areaTxt"><textarea class="player2" name="participante" rows="24" cols="70"></textarea></div>
-          <div class="btnArea">
-          <textarea class="addPlayer" name="participante" rows="5" cols="50"></textarea>
-          <button class="btnAdd">Añade Participante</button>
-          <button class="btnDel">Borrar Participante</button>
-          <button class="btnMod">Modificar Participante</button>
-        </div>
-        </div>
-        
-        <div class="game">
-          <button class="btnGame"><a href="rank.html">GANADORES!!!</a></button>
-        </div>
+    <div class="game">
+      <button class="btnGame" id="btnGame2"><a href="rank.html">GANADORES!!!</a></button>
+    </div>
 
-       
+    <footer class="pie-pagina">
+      <p>Luis - M. Elena - Irene - Hassan - Jorge</p>
+      <p>&copy; 2023 - Todos los derechos reservados</p>
+    </footer>
 
-        <p>Created by: <br><br>Jose Luis - M. Elena - Irene - Hassan - Jorge</p>
-        <p>&copy; 2023 - Todos los derechos reservados</p>
-      </footer>
-<script src="js/app.js"></script>
-</body>
+    <script src="js/gira.js"></script>
+    <script src="js/players.js"></script>
+    <script src="js/winner.js"></script>
+    <script src="js/viewWin.js"></script>
+  </body>
 </html>

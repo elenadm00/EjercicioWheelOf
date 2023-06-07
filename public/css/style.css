@@ -83,6 +83,8 @@ h2 {
   width: 25%;
   height: 45px;
   border-radius: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 a {
@@ -119,116 +121,6 @@ a {
   border-radius: 10px;
 }
 
-.player2 {
-  width: 100%;
-  grid-gap: 15px;
-  display: grid;
-  border-radius: 10px;
-  margin-top: 20px;
-}
-
-.rulH1{
-  width: 50%;
-  text-align: center;
-}
-
-.addPlayer{
-  width: 90%;
-  height: 25px;
-  margin-top: 30px;
-  justify-content: center;
-  border-radius: 10px;
-}
-
-
-.playRuleta{
-  width: 80%;
-  display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  background-color: #C27BF6;
-  align-items: center;
-}
-
-/*.container{
-  position: relative;
-  width: 100%;
-  height: 600px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.Roul{
-  width: 100%;
-  display: grid;
-  justify-content: center;
-  background-color: #60387e;
-  align-items: center;
-}
-
-#roule {
-  width: 400px;
-  height: 400px;
-}
-
- .Roul .btnArrow::before { 
-  justify-content: center;
-  align-items: center;
-  clip-path: polygon(50% 0%, 5% 100%, 100% 100%);
-  width: 100px;
-  margin-left: 115px;
-  height: 250px;
-  background: blue;
-  border: 2px solid black;
-} */
-
-.areaTxt{
-  width: 100%;
-  grid-column-start: 2; 
-  grid-column-end: 3; 
-  grid-row-start: 1; 
-  grid-row-end: 2;
-}
-
-.btnArea{
-  grid-column-start: 3; 
-  grid-column-end: 3; 
-  grid-row-start: 1; 
-  grid-row-end: 1;
-}
-
-
- .btnAdd{
-  background-color: #d27e1a;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  width: 50%;
-  height: 45px;
-  border-radius: 15px;
-}
-
-.btnDel{
-  width: 50%;
-  background-color: #d27e1a;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  height: 45px;
-  border-radius: 15px;
-}
-
-.btnMod{
-  width: 50%;
-  background-color: #d27e1a;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  height: 45px;
-  border-radius: 15px;
-} 
-
-textarea {
-  width: 80%;
-}
- 
 img {
   z-index: 100;
   transition: all 5s;

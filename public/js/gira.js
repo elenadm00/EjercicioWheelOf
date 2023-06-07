@@ -45,7 +45,8 @@ botonGirar.addEventListener("click", () => {
         //  });
 
 
-        // Mostrar el nombre del ganador dentro del elemento HTML correspondiente
+        // Mostrar el nombre de los ganadores dentro del elemento HTML guardarlos en Memoria y mostrarlos 
+        // en el textArea de la pagina RANK
 const ganadorNombreHTML = document.querySelector(".ganador__popup__name");
 ganadorNombreHTML.textContent = nombres[indiceGanador];
 

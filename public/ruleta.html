@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/ruleta.css" />
     <script>
-      window.onload = function() {
+      window.onload = function () {
         localStorage.clear();
-      }
-      </script>
+      };
+    </script>
     <title>Wheel of...</title>
   </head>
   <body>
@@ -24,13 +24,13 @@
     </header>
 
     <div class="ruleta">
-      <div class="ruleta__slice"><img src="img/ruleta.png"></div>
+      <div class="ruleta__slice"><img src="img/ruleta.png" /></div>
     </div>
     <button class="ruleta__btn">Girar</button>
     <div class="ganador__popup">
       <div class="ganador__popup__content">
-        <h2 class="ganador__popup__title">El ganador es: </h2>
-        <p class="ganador__popup__name"> </p>
+        <h2 class="ganador__popup__title">El ganador es:</h2>
+        <p class="ganador__popup__name"></p>
       </div>
     </div>
 
@@ -43,7 +43,8 @@
             name="participante"
             rows="24"
             cols="70"
-            value="${iteration.startTime}" disabled
+            value="${iteration.startTime}"
+            disabled
           ></textarea>
         </div>
         <div class="btnGroup">
@@ -67,7 +68,9 @@
     </div>
 
     <div class="game">
-      <button class="btnGame" id="btnGame2"><a href="rank.html">GANADORES!!!</a></button>
+      <button class="btnGame" id="btnGame2">
+        <a href="rank.html">GANADORES!!!</a>
+      </button>
     </div>
 
     <footer class="pie-pagina">

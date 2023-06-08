@@ -129,8 +129,9 @@ img {
 @keyframes girar {
   from {
     transform: rotate(0deg);
-  }to{
+  }
+  to {
     transform: rotate(360deg);
   }
-} 
+}
 /*# sourceMappingURL=style.css.map */

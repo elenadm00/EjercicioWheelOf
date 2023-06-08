@@ -1,13 +1,13 @@
 body {
   width: 100%;
   margin: 0 0 0 0;
-  background-color: #60387e;
+  background-color: #60387E;
 }
 
 header {
   display: flex;
   justify-content: center;
-  background-color: #7fc5d5;
+  background-color: #7FC5D5;
   padding: 20px 0;
   width: 95%;
   margin: 0 auto;
@@ -35,7 +35,7 @@ header {
 .insTitle {
   font-size: 58px;
   text-align: center;
-  background-color: #7fc5d5;
+  background-color: #7FC5D5;
   border-radius: 15px;
   width: 95%;
   margin: 10px auto;
@@ -52,7 +52,7 @@ header {
   text-transform: uppercase;
   letter-spacing: 0.3px;
   font-family: "Saira", Sans-serif;
-  background-color: #7fc5d5;
+  background-color: #7FC5D5;
   display: grid;
   justify-content: center;
 }
@@ -79,12 +79,11 @@ h2 {
 
 .btnGame {
   background-color: #d27e1a;
+  margin-top: 15px;
   margin-bottom: 15px;
   width: 25%;
   height: 45px;
   border-radius: 15px;
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
 
 a {
@@ -93,7 +92,7 @@ a {
 }
 
 .pie-pagina {
-  background-color: #7fc5d5;
+  background-color: #7FC5D5;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -104,34 +103,4 @@ a {
   border-radius: 15px 15px 0 0;
 }
 
-.play {
-  display: flex;
-  justify-content: center;
-  background-color: #60387e;
-  padding: 20px 0;
-  width: 95%;
-  margin: 0 auto;
-}
-
-.player {
-  width: 100%;
-  display: grid;
-  justify-content: center;
-  margin: 5px 0 5px 0;
-  border-radius: 10px;
-}
-
-img {
-  z-index: 100;
-  transition: all 5s;
-}
-
-@keyframes girar {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css1.map */

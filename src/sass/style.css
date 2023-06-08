@@ -79,12 +79,11 @@ h2 {
 
 .btnGame {
   background-color: #d27e1a;
+  margin-top: 15px;
   margin-bottom: 15px;
   width: 25%;
   height: 45px;
   border-radius: 15px;
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
 
 a {
@@ -102,36 +101,4 @@ a {
   width: 95%;
   margin: 0 auto;
   border-radius: 15px 15px 0 0;
-}
-
-.play {
-  display: flex;
-  justify-content: center;
-  background-color: #60387e;
-  padding: 20px 0;
-  width: 95%;
-  margin: 0 auto;
-}
-
-.player {
-  width: 100%;
-  display: grid;
-  justify-content: center;
-  margin: 5px 0 5px 0;
-  border-radius: 10px;
-}
-
-img {
-  z-index: 100;
-  transition: all 5s;
-}
-
-@keyframes girar {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

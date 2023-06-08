@@ -1,5 +1,4 @@
-// const btnGanadores = document.querySelector('.btnGame');
-// btnGanadores.addEventListener('click', mostrarGanador);
+
 const ganadores = JSON.parse(localStorage.getItem('ganadores')) || [];
 if (ganadores.length > 0) {
   const textarea = document.querySelector('.player');

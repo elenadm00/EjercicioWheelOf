@@ -31,20 +31,7 @@ botonGirar.addEventListener("click", () => {
       
       // Si la ruleta se detiene, mostrar el nombre del ganador y detener el intervalo
       if (anguloActual === anguloParada) {
-        // Seleccionar el elemento HTML donde se mostrará el nombre del ganador
-         //const ganadorNombre = document.querySelector(".ganador__popup__name");
-        
-        // Mostrar el nombre del ganador dentro del elemento HTML correspondiente
-       // ganadorNombre.textContent = nombres[indiceGanador];
-
-        // Evento para enviar el nombre del ganador a la pagina de Ranking elemento HTML que contiene el ganador
-        //  const btnGirar = document.querySelector('#btnGame2');
-        //       btnGirar.addEventListener('click', () => {
-        //       const ganadorNombre = document.querySelector('.ganador__popup__name').textContent;
-        //       localStorage.setItem('ganadorNombre', ganadorNombre);
-        //  });
-
-
+    
         // Mostrar el nombre de los ganadores dentro del elemento HTML, guardarlos en Memoria y mostrarlos 
         // en el textArea de la pagina RANK
 const ganadorNombreHTML = document.querySelector(".ganador__popup__name");
@@ -57,7 +44,6 @@ ganadores.push(ganadorNombre);
 localStorage.setItem('ganadores', JSON.stringify(ganadores));
 
 
-        
         clearInterval(intervalo);
       }
     }, 50);

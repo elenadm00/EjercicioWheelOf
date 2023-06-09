@@ -1,0 +1,106 @@
+body{
+    width: 100%;
+    margin: 0 0 0 0;
+    background-color: #60387E; 
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #7FC5D5;
+    padding: 20px 0;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 0 0 15px 15px;
+    }
+      
+    .logo img {
+      width: 400px;
+      height: 300px;
+      text-align: center;
+      border-radius: 15px;
+    }
+
+.texto-banner {
+    margin-left: 25%;
+  }
+  
+  .texto-banner h2 {
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center; 
+    color: #000000;
+  }
+
+  .insTitle{
+    font-size: 58px;
+    text-align: center;
+    background-color: #7FC5D5; 
+    border-radius:15px;
+    width: 95%;
+    margin: 10px auto;
+   }
+
+   .insBox{
+    width: 95%;
+    margin: 10px auto;
+    border-radius:15px;
+    text-align: left;
+    color: #000;
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    font-family: "Saira", Sans-serif;
+    background-color:  #7FC5D5;
+    display: grid;
+    justify-content: center;
+   }
+
+   ol li{
+    margin-left: 15%;
+
+   }
+
+   h2 {
+    color: #fff;
+    text-align: center;
+   }
+
+   .game{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+   }
+
+  .imgApuestas{
+    margin: 10px auto;
+    justify-content: center;
+   }
+   
+   .btnGame{
+    background-color: #d27e1a;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 25%;
+    height: 45px;
+    border-radius:15px;
+   }
+
+   a {
+    text-decoration: none;
+    font-size: 20px;
+   }
+
+   .pie-pagina{
+    background-color: #7FC5D5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 15px 15px 0 0;
+   }
